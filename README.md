@@ -6,3 +6,4 @@ A homework of OpenGL from BUPT
 
 * Windows 10
 * Visual Stuidio 2017
+* glut lib
