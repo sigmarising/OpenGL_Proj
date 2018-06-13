@@ -42,15 +42,15 @@ void makeImage() {
 }
 
 void SetupRC(void) {
-    glEnable(GL_LIGHTING);					// 启用光照
-    glEnable(GL_LIGHT0);					// 启用0号光源
-    glShadeModel(GL_SMOOTH);				// 启用光滑着色
-    glEnable(GL_DEPTH_TEST);				// 启用深度测试
-    glEnable(GL_NORMALIZE);					// 启用法向量
-    glEnable(GL_COLOR_MATERIAL);			// 启用颜色材质
-    glClearColor(1.0f, 1.0f, 1.0f, 0.0f);	// 设置清除色为白
+    glEnable(GL_LIGHTING);                  // 启用光照
+    glEnable(GL_LIGHT0);                    // 启用0号光源
+    glShadeModel(GL_SMOOTH);                // 启用光滑着色
+    glEnable(GL_DEPTH_TEST);                // 启用深度测试
+    glEnable(GL_NORMALIZE);                 // 启用法向量
+    glEnable(GL_COLOR_MATERIAL);            // 启用颜色材质
+    glClearColor(1.0f, 1.0f, 1.0f, 0.0f);   // 设置清除色为白
 
-                                            // 光照设置
+    // 光照设置
     GLfloat light_ambient[] = { 0.0f, 0.0f, 0.0f, 1.0f };
     GLfloat light_diffuse[] = { 1.0f, 1.0f, 1.0f, 1.0f };
     GLfloat light_specular[] = { 1.0f, 1.0f, 1.0f, 1.0f };
